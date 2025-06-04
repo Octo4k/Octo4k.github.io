@@ -1,0 +1,60 @@
+body, h1, h2, h3, p, ul, li, nav, header, footer, main, section {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+html {
+    scroll-behavior: smooth;
+    background: radial-gradient(circle at 7px 7px, #80a197 6px, #333 7px);
+    background-size: 26px 26px;
+}
+
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Navigation styles */
+nav {
+    background: #444;
+    padding: 0.5rem 0;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+/* Main content styles */
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Section styles */
+section {
+    margin-bottom: 2rem;
+}
+
+/* Footer styles */
+footer {
+    background: #333;
+    color: #00a759;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
